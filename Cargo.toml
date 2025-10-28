@@ -1,0 +1,14 @@
+[package]
+name = "mini_sql_db"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+nom = "7.1"
+
+[dev-dependencies]
+# For future testing
+
+[[bin]]
+name = "mydb"
+path = "src/main.rs"
